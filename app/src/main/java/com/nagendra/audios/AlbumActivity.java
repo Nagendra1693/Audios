@@ -212,7 +212,7 @@ public class AlbumActivity extends AppCompatActivity {
                         int l = dirty.length();
                         for(k=0; k < l; k++){
                             int temp =(int) dirty.charAt(k);
-                            if(temp == 32 || temp == 40 || temp == 41 || temp == 44 || (temp >= 48 && temp <= 57) || (temp >= 65 && temp <= 90) || (temp >= 97 && temp <= 122)){
+                            if(temp == 32 || temp == 40 || temp == 41 || temp == 44 || temp == 46 || (temp >= 48 && temp <= 57) || (temp >= 65 && temp <= 90) || (temp >= 97 && temp <= 122)){
                                 clean += (char) temp;
                             }else{
                                 clean +="-";
